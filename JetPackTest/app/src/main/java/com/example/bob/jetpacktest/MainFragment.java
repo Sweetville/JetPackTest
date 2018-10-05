@@ -7,10 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class MainFragment extends Fragment {
 
 
@@ -26,4 +22,9 @@ public class MainFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
 
+    /*
+    @Override
+    public View onViewCreated(view:view, savedInstanceState: Bundle?)
+
+*/
 }
